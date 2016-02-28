@@ -1,2 +1,2 @@
 [windows]
-127.0.0.1:3389
+127.0.0.1:3389 ansible_connection=local
