@@ -1,1 +1,4 @@
 .vagrant
+.python-version
+
+playbook.retry
