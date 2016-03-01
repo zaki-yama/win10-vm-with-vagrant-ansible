@@ -1,2 +1,9 @@
 [windows]
-127.0.0.1:3389 ansible_connection=local
+127.0.0.1
+
+[windows:vars]
+ansible_user=IEUser
+ansible_password=Passw0rd!
+ansible_port=55986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
