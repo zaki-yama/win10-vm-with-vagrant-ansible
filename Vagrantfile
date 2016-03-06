@@ -54,6 +54,7 @@ Vagrant.configure(2) do |config|
     vb.memory = "1024"
     # クリップボードの共有: 双方向
     vb.customize ["modifyvm", :id, "--clipboard", "bidirectional"]
+    vb.customize ["modifyvm", :id, "--vram"  , "128"]
   end
 
   # View the documentation for the provider you are using for more
