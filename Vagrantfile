@@ -78,6 +78,6 @@ Vagrant.configure(2) do |config|
     ansible.inventory_path = "hosts"  # 作成したインベントリーファイル名
     ansible.playbook = "playbook.yml"
     ansible.limit = "windows"
-    ansible.verbose = true
+    ansible.verbose = "vvvv"
   end
 end
