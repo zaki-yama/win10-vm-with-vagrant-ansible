@@ -1,0 +1,10 @@
+ansible==2.0.0.2
+ecdsa==0.13
+isodate==0.5.4
+Jinja2==2.8
+MarkupSafe==0.23
+paramiko==1.16.0
+pycrypto==2.6.1
+pywinrm==0.1.1
+PyYAML==3.11
+xmltodict==0.10.1
