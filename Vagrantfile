@@ -47,8 +47,8 @@ Vagrant.configure(2) do |config|
   #
   config.vm.provider "virtualbox" do |vb|
     # Display the VirtualBox GUI when booting the machine
-    vb.gui = true
-	vb.name = "vagrant-win10"
+    #vb.gui = true
+    vb.name = "vagrant-win10"
 
     # Customize the amount of memory on the VM:
     vb.memory = "1024"
@@ -78,6 +78,6 @@ Vagrant.configure(2) do |config|
     ansible.inventory_path = "hosts"  # 作成したインベントリーファイル名
     ansible.playbook = "playbook.yml"
     ansible.limit = "windows"
-    ansible.verbose = "vvvv"
+    ansible.verbose = "vv"
   end
 end
