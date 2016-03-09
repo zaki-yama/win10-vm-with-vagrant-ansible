@@ -1,3 +1,11 @@
 - hosts: windows
   tasks:
-    - script: setup.ps1
+  - name: Install git
+    win_chocolatey:
+      name: git
+  - name: Install tortoisesvn
+    win_chocolatey:
+      name: tortoisesvn
+  - name: Install Notepad++
+    win_chocolatey:
+      name: notepadplusplus
