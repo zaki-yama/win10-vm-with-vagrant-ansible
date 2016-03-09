@@ -9,3 +9,4 @@
   - name: Install Notepad++
     win_chocolatey:
       name: notepadplusplus
+  - script: setup.ps1
