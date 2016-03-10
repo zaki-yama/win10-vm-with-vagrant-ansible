@@ -10,11 +10,12 @@ If using Mac, You can install both via Homebrew.
 $ brew tap caskroom/cask
 $ brew cask install virtualbox
 $ brew cask install vagrant
+$ brew install python
+$ pip install -r requirements.txt
 ```
 
-Install Windows10 box file.
-(This box file can be found here: 
+Run VM.
 
 ```
-$ vagrant box add modernIE/w10-edge
+$ vagrant up
 ```
